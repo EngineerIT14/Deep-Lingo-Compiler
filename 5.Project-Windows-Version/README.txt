@@ -1,0 +1,49 @@
+Deep Lingo compiler, version 0.5
+===============================
+* IRVIN EMMANUEL TRUJILLO DÍAZ A01370082
+* LUIS FERNANDO ESPINOSA ELIZALDE A01375758
+
+This program is free software. You may redistribute it under the terms of
+the GNU General Public License version 3 or later. See license.txt for 
+details. This compiler is based on the Buttercup compiler, version 0.3
+made by Ariel Ortiz. 
+
+Included in this release:
+
+   * Lexical analysis
+   * Syntactic analysis
+   * AST construction.
+   * Semantic analysis
+   * CIL Code generation.
+    
+To build, at the terminal type:
+
+    *Linux:    make  
+    *Windows:  NMAKE
+    
+install wine if you are using Linux:
+    apt-get install wine
+   
+To run, type:
+
+**Generate il file that will contain the CIL(Common Intermediate Language) code that represents the deeplingo code.
+    * Using linux: wine ./deeplingo.exe ./TestPrograms/<file_name> ./il/<file_name>.il
+    * Using Windows: deeplingo.exe ./TestPrograms/<file_name> ./il/<file_name>.il
+
+**Move to the il directory and then generate the executable with the following command:
+    ilasm <file_name>.il
+
+**Run the exectable 
+    * Using linux: wine <file_name>.exe
+    * Using Windows: <file_name>.exe 
+
+Where <file_name> is the name of a Deeplingo source file. You can try with
+these files:
+
+   * arrays.deep
+   * binary.deep
+   * factorial.deep
+   * literals.deep
+   * next_day.deep
+   * palindrome.deep
+   * ultimate.deep
