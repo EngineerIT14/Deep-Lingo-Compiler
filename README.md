@@ -39,7 +39,7 @@ Included in this release:
 
     ilasm <file_name>.il
 
-***Run the exectable***
+***Run the executable***
 
     * Using Linux: wine <file_name>.exe
     * Using Windows: <file_name>.exe
