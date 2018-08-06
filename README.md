@@ -16,33 +16,41 @@ Included in this release:
    * Semantic analysis.
    * CIL Code generation.
 
+**Deep Lingo Programming Language Description**
+
+    http://webcem01.cem.itesm.mx:8005/s201811/tc3048/DeepLingo/DeepLingo_language_spec.html
+
 ***To build, at the terminal type the following***
 
     *Linux:    make
     *Windows:  NMAKE
 
 ***install wine if you are using Linux***
-    * apt-get install wine
+
+    apt-get install wine
 
 
 ***Generate il file that will contain the CIL(Common Intermediate Language) code that represents the deeplingo code.***
-    * Using linux: wine ./deeplingo.exe ./TestPrograms/<file_name> ./il/<file_name>.il
+
+    * Using Linux: wine ./deeplingo.exe ./TestPrograms/<file_name> ./il/<file_name>.il
     * Using Windows: deeplingo.exe ./TestPrograms/<file_name> ./il/<file_name>.il
 
 ***Move to the il directory and then generate the executable with the following command***
-   * ilasm <file_name>.il
+
+    ilasm <file_name>.il
 
 ***Run the exectable***
-    * Using linux: wine <file_name>.exe
+
+    * Using Linux: wine <file_name>.exe
     * Using Windows: <file_name>.exe
 
 <file_name> is the name of a Deeplingo source file. You can try with
 these files:
 
-   * arrays.deep
-   * binary.deep
-   * factorial.deep
-   * literals.deep
-   * next_day.deep
-   * palindrome.deep
-   * ultimate.deep
+    * arrays.deep
+    * binary.deep
+    * factorial.deep
+    * literals.deep
+    * next_day.deep
+    * palindrome.deep
+    * ultimate.deep
