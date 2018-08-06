@@ -1,0 +1,16 @@
+/* File: ultimate.deep
+ * Prints the answer to the ultimate question of life, the
+ * universe, and everything.
+ * (C) 2018 Ariel Ortiz, ITESM CEM
+ */
+
+var monchis;
+
+jamon(conchis, cerdi){
+    prints(conchis);
+}
+
+main() {
+    monchis =1;
+    printi(monchis);
+}
