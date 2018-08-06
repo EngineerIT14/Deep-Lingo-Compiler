@@ -18,10 +18,12 @@ Included in this release:
 
 **Deep Lingo Programming Language Description**     [Read document.](http://webcem01.cem.itesm.mx:8005/s201811/tc3048/DeepLingo/DeepLingo_language_spec.html)
 
-***To build, at the terminal type the following***
+***To build, use the terminal and go to the directory where the MakeFile is and type the following***
 
     *Linux:    make
     *Windows:  NMAKE
+
+[If you are using windows and NMAKE is unrecognized, then go to this link in order to install it.](https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx)
 
 ***install wine if you are using Linux***
 
