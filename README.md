@@ -16,7 +16,7 @@ Included in this release:
    * Semantic analysis.
    * CIL Code generation.
 
-**Deep Lingo Programming Language Description**     [Read document.](http://webcem01.cem.itesm.mx:8005/s201811/tc3048/DeepLingo/DeepLingo_language_spec.html)
+**Deep Lingo Programming Language Description**     [Read document.](http://34.212.143.74/s201811/tc3048/DeepLingo/DeepLingo_language_spec.html)
 
 ***To build, use the terminal and go to the directory where the MakeFile is and type the following***
 
