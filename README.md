@@ -5,7 +5,7 @@ Deep Lingo compiler, version 0.5
 
 This program is free software. You may redistribute it under the terms of
 the GNU General Public License version 3 or later. See license.txt for
-details. This compiler is based on the Buttercup compiler, version 0.3
+details. This compiler is based on the Buttercup compiler, version 0.5
 made by Ariel Ortiz.
 
 Included in this release:
