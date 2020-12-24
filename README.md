@@ -1,7 +1,7 @@
 Deep Lingo compiler, version 0.5
 ===============================
-* IRVIN EMMANUEL TRUJILLO DÍAZ A01370082
-* LUIS FERNANDO ESPINOSA ELIZALDE A01375758
+* IRVIN EMMANUEL TRUJILLO DÍAZ
+* LUIS FERNANDO ESPINOSA ELIZALDE 
 
 This program is free software. You may redistribute it under the terms of
 the GNU General Public License version 3 or later. See license.txt for
